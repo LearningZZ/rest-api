@@ -1,0 +1,23 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "I am learning about REST API CRUD.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenilMistry/rest-api.git"
+  },
+  "keywords": [
+    "rest-api",
+    "crud"
+  ],
+  "author": "HenilMistry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenilMistry/rest-api/issues"
+  },
+  "homepage": "https://github.com/HenilMistry/rest-api#readme"
+}
