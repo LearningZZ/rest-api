@@ -13,3 +13,11 @@ It is full of fun and joy.
   - POST
   - PATCH/:id
   - DELETE
+  
+  # What should be done just befor clone
+  - Remember to use command below, just after cloning or forking
+    - ```npm install```
+ - Reason is that, i haven't included ```node_modules``` in this project. The above command will automatically install all dependencies in your project.
+ 
+ # Expectation
+ - I expect that as a respossible developer, you may contribute in discussion of this repository.
