@@ -11,6 +11,8 @@ conn.on('open', () => {
     console.log("Connected With Aliens...");
 });
 
+app.use(express.json());    
+
 const alienRouter = require('./routers/aliens');
 app.use('/aliens', alienRouter);
 
