@@ -16,6 +16,6 @@ app.use(express.json());
 const alienRouter = require('./routers/aliens');
 app.use('/aliens', alienRouter);
 
-app.listen(process.env.PORT || 9000,() => {
+app.listen(9000,() => {
     console.log("Server is running on port "+process.env.PORT );
 });
