@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const url = 'mongodb://0.0.0.0:27017/AlienDB';
+const url = 'mongodb://0.0.0.0:9000/AlienDB';
 
 const app = express();
 
@@ -16,6 +16,6 @@ app.use(express.json());
 const alienRouter = require('./routers/aliens');
 app.use('/aliens', alienRouter);
 
-app.listen(9000,() => {
-    console.log("Server is running on port 9000");
+app.listen(process.env.PORT || 9000,() => {
+    console.log("Server is running on port "+process.env.PORT );
 });
