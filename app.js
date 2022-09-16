@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const url = 'mongodb://localhost:27017/AlienDB';
+const url = 'mongodb://0.0.0.0:27017/AlienDB';
 
 const app = express();
 
